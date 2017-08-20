@@ -27,6 +27,7 @@ virtualenv $VENV_PY
 $APIPIP install sphinx
 $APIPIP install sphinx_rtd_theme
 
-git clone https://github.com/gawati/setup-scripts setup-scripts
+# this is importd as a sub-module
+#git clone https://github.com/gawati/setup-scripts setup-scripts
 
 cd docs && ../venv/bin/sphinx-apidoc -o source/
